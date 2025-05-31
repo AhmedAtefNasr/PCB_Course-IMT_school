@@ -2012,27 +2012,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode_Bridge:MDB10S"
+		(symbol "Diode_Bridge:B40C3x00-2200A"
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 3.81 6.35 0)
+				(at 2.54 6.985 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "MDB10S"
-				(at 6.35 3.81 0)
+			(property "Value" "B40C3x00-2200A"
+				(at 2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-4_4.4x5mm_P4mm"
+			(property "Footprint" "Diode_THT:Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm"
+				(at 3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2041,7 +2056,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF"
+			(property "Description" "Silicon Bridge Rectifier, 40V Vrms, 2.2A If, pins=-AA+, SIL-package"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2050,7 +2065,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single-Phase Bridge Rectifier, 700V Vrms, 1A If, TSSOP-4"
+			(property "ki_keywords" "rectifier acdc"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2059,7 +2074,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "bridge diode rectifier ac dc acdc ac-dc"
+			(property "ki_fp_filters" "D*Bridge*32.0x5.6x17.0mm*P10.0mm*P7.5mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2068,16 +2083,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TSSOP*4.4x5mm*P4mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MDB10S_1_1"
+			(symbol "B40C3x00-2200A_0_1"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
@@ -2186,6 +2192,8 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "B40C3x00-2200A_1_1"
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -2196,7 +2204,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2214,7 +2222,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2250,7 +2258,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3455,6 +3463,12 @@
 		(uuid "305ee883-ab34-460f-bd42-629b35a00002")
 	)
 	(junction
+		(at 104.14 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d19fa3c-d895-4960-bc1e-7bfb048b87aa")
+	)
+	(junction
 		(at 186.69 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3479,6 +3493,12 @@
 		(uuid "5f940d60-2686-4fc4-a08b-63d0b7d5faeb")
 	)
 	(junction
+		(at 116.84 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "666e0046-08a6-48bc-9bbe-bc5e19156a7b")
+	)
+	(junction
 		(at 134.62 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3495,12 +3515,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d12b1a82-1d83-44ab-8845-14654a5eecb7")
-	)
-	(junction
-		(at 104.14 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e920aae5-aa71-480f-b438-afce8ee502da")
 	)
 	(junction
 		(at 207.01 92.71)
@@ -3625,6 +3639,16 @@
 			(type default)
 		)
 		(uuid "1ec506bc-cc99-4438-9e73-dc7d2ae0a5d8")
+	)
+	(wire
+		(pts
+			(xy 104.14 69.85) (xy 104.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209606c4-9ec9-424a-84a8-d6a92bb7347e")
 	)
 	(wire
 		(pts
@@ -3825,16 +3849,6 @@
 			(type default)
 		)
 		(uuid "505ed2d7-c69c-477c-bcca-aa4383e48813")
-	)
-	(wire
-		(pts
-			(xy 104.14 69.85) (xy 104.14 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "563b80d3-ef34-43db-bc18-69bf2130053c")
 	)
 	(wire
 		(pts
@@ -4288,6 +4302,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 62.23) (xy 116.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ede1b0-ace0-42ec-8090-a4ecb451f438")
+	)
+	(wire
+		(pts
 			(xy 60.96 87.63) (xy 63.5 87.63)
 		)
 		(stroke
@@ -4467,6 +4491,81 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode_Bridge:B40C3x00-2200A")
+		(at 116.84 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00b5a631-1ff3-41af-9f83-f996dac80dea")
+		(property "Reference" "D2"
+			(at 132.08 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B40C3x00-2200A"
+			(at 132.08 65.9698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm"
+			(at 120.65 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700"
+			(at 116.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Silicon Bridge Rectifier, 40V Vrms, 2.2A If, pins=-AA+, SIL-package"
+			(at 116.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "08ad067e-6e8a-4c43-81f5-ad543107cbc5")
+		)
+		(pin "2"
+			(uuid "3f4a01b5-f7c9-4997-a832-566480d71993")
+		)
+		(pin "1"
+			(uuid "00c7c6e8-238e-4888-82ed-a9c13a0d4dd2")
+		)
+		(pin "4"
+			(uuid "519c3272-d5e6-4d46-bcf2-78f77c636d08")
+		)
+		(instances
+			(project ""
+				(path "/3372f59d-e2fb-4a2a-b342-548a4f8e5741"
+					(reference "D2")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4926,80 +5025,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode_Bridge:MDB10S")
-		(at 116.84 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19f4d9b3-2b74-47a0-b00d-5745c23869e1")
-		(property "Reference" "D1"
-			(at 127 64.8968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MDB10S"
-			(at 127 67.4368 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-4_4.4x5mm_P4mm"
-			(at 116.84 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF"
-			(at 116.84 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-Phase Bridge Rectifier, 700V Vrms, 1A If, TSSOP-4"
-			(at 116.84 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8846c8eb-bf36-40fc-a1cc-fcf75b1922da")
-		)
-		(pin "3"
-			(uuid "b49c830b-9d6b-4c02-bad8-03f1eae600dc")
-		)
-		(pin "1"
-			(uuid "8f14bce4-4fd1-4ba6-acf3-05965fa57e69")
-		)
-		(pin "2"
-			(uuid "0aec1d92-7447-4957-8bf1-63174fc04acb")
-		)
-		(instances
-			(project "Assignment 1"
-				(path "/3372f59d-e2fb-4a2a-b342-548a4f8e5741"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "1825163-2:1825163-2")
 		(at 142.24 78.74 0)
 		(unit 1)
@@ -5025,7 +5050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1825163-2:SW_1825163-2"
+		(property "Footprint" "DP3T:SW_1825163-2"
 			(at 142.24 78.74 0)
 			(effects
 				(font
