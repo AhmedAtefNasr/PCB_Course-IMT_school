@@ -5,6 +5,546 @@
 	(uuid "3372f59d-e2fb-4a2a-b342-548a4f8e5741")
 	(paper "A4")
 	(lib_symbols
+		(symbol "1825163-2:1825163-2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at -5.0895 8.2704 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1825163-2"
+				(at -5.081 -7.6215 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "1825163-2:SW_1825163-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comment" "1825163-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Switch Slide SP3T Top Slide 0.3A 125VAC PC Pins Thru-Hole Bulk"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/1825163-2/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/1825163-2/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "1825163-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1825163-2_0_0"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.905 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 5.3975) (xy -0.9525 2.2225)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9525 5.3975) (xy 0.9525 2.2225)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "6ESRM-P:6ESRM-P"
 			(pin_names
 				(offset 1.016)
@@ -2003,220 +2543,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SP3T"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SP3T"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -15.875 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch sp3t ON-ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW* SP3T*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SP3T_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SP3T_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TY-311P:TY-311P"
 			(pin_names
 				(offset 1.016)
@@ -3153,6 +3479,12 @@
 		(uuid "5f940d60-2686-4fc4-a08b-63d0b7d5faeb")
 	)
 	(junction
+		(at 134.62 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "865c60b0-c278-42e5-9052-a6753cc5e911")
+	)
+	(junction
 		(at 195.58 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3177,12 +3509,16 @@
 		(uuid "efebf778-897c-4239-9894-47e0dcf66974")
 	)
 	(no_connect
+		(at 149.86 78.74)
+		(uuid "1da3412a-b190-4531-8570-7dacbb0204b4")
+	)
+	(no_connect
 		(at 73.66 90.17)
 		(uuid "35a1701f-535c-4915-82bc-098fb37663ab")
 	)
 	(no_connect
-		(at 138.43 77.47)
-		(uuid "669ae3ca-5ed0-4152-bcf2-b6bf1a0f461e")
+		(at 149.86 81.28)
+		(uuid "3cb1c571-9785-4f0f-8cdd-7164a17c1a46")
 	)
 	(no_connect
 		(at 73.66 77.47)
@@ -3191,6 +3527,14 @@
 	(no_connect
 		(at 57.15 73.66)
 		(uuid "a33e7dff-14bd-4c6d-87be-280cd2bb55d5")
+	)
+	(no_connect
+		(at 149.86 73.66)
+		(uuid "d13bf93a-81a4-4e9a-839e-5c271402ef55")
+	)
+	(no_connect
+		(at 149.86 76.2)
+		(uuid "df9f634c-f398-4b2d-b055-6a60c4fade12")
 	)
 	(wire
 		(pts
@@ -3201,26 +3545,6 @@
 			(type default)
 		)
 		(uuid "00fe7290-823f-4580-ad90-9761dc6c2449")
-	)
-	(wire
-		(pts
-			(xy 133.35 77.47) (xy 138.43 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03dfadb5-da95-41ef-8cb6-c38dcd5666be")
-	)
-	(wire
-		(pts
-			(xy 133.35 109.22) (xy 133.35 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0713a4a5-35ae-4192-b0a6-9ea9d9edbbbd")
 	)
 	(wire
 		(pts
@@ -3284,16 +3608,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 77.47) (xy 149.86 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1571f568-2eaf-4ff3-941e-f2926cdb42f3")
-	)
-	(wire
-		(pts
 			(xy 77.47 80.01) (xy 77.47 82.55)
 		)
 		(stroke
@@ -3301,6 +3615,26 @@
 			(type default)
 		)
 		(uuid "1ab2db34-7c46-4ec3-8da5-a532938c7ef6")
+	)
+	(wire
+		(pts
+			(xy 133.35 63.5) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec506bc-cc99-4438-9e73-dc7d2ae0a5d8")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2740f325-046f-4a67-b5d3-43b532a2ffd9")
 	)
 	(wire
 		(pts
@@ -3494,16 +3828,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 74.93) (xy 138.43 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5113e154-7303-4e82-b286-5a7012205348")
-	)
-	(wire
-		(pts
 			(xy 104.14 69.85) (xy 104.14 86.36)
 		)
 		(stroke
@@ -3524,13 +3848,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 77.47) (xy 149.86 77.47)
+			(xy 134.62 81.28) (xy 132.08 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d17eaf1-c35c-4595-a948-d4f3e0ac3bd4")
+		(uuid "60df8da7-68eb-46dd-aa9d-17a7b63403b5")
 	)
 	(wire
 		(pts
@@ -3541,6 +3865,16 @@
 			(type default)
 		)
 		(uuid "627b09f8-55f4-4ed8-a3ad-7a4b985dd95a")
+	)
+	(wire
+		(pts
+			(xy 134.62 77.47) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62dafec7-0a8c-4bf8-8466-d0fe2023c8eb")
 	)
 	(wire
 		(pts
@@ -3561,6 +3895,16 @@
 			(type default)
 		)
 		(uuid "6b8fa42a-99d6-4720-91ae-9b45fc7ca4ba")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 134.62 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e52a32e-6b28-4b6c-b9f5-62cea497d8be")
 	)
 	(wire
 		(pts
@@ -3604,16 +3948,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 72.39) (xy 152.4 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ac54930-1c40-414f-9578-52493040915b")
-	)
-	(wire
-		(pts
 			(xy 171.45 67.31) (xy 181.61 67.31)
 		)
 		(stroke
@@ -3641,6 +3975,16 @@
 			(type default)
 		)
 		(uuid "8a591f92-aecb-4285-9577-321de9f85ae5")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 133.35 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8dbe29-2855-49b6-b552-29db4cc617d3")
 	)
 	(wire
 		(pts
@@ -3691,6 +4035,26 @@
 			(type default)
 		)
 		(uuid "96702e81-14a0-49f1-b4a5-fdf90d30ff57")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9769dd7b-77ac-4450-8ee8-793b3fc45538")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 132.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9919c394-1029-4d28-a22d-c94c6e36ca0d")
 	)
 	(wire
 		(pts
@@ -3784,7 +4148,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 62.23) (xy 133.35 62.23)
+			(xy 116.84 62.23) (xy 132.08 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3804,7 +4168,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 109.22) (xy 133.35 109.22)
+			(xy 55.88 109.22) (xy 132.08 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3844,16 +4208,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 62.23) (xy 133.35 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd7e0892-499c-4b2d-a642-6475d968bd3b")
-	)
-	(wire
-		(pts
 			(xy 207.01 92.71) (xy 219.71 92.71)
 		)
 		(stroke
@@ -3861,6 +4215,16 @@
 			(type default)
 		)
 		(uuid "c1511e31-8ea6-4f63-8277-df49747e1fff")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.28) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19b9d9a-b44f-40f6-a04c-cc9e9b4e794b")
 	)
 	(wire
 		(pts
@@ -3904,6 +4268,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 77.47) (xy 134.62 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22a3629-b511-4920-bc7a-8657f10a6bd8")
+	)
+	(wire
+		(pts
 			(xy 54.61 96.52) (xy 106.68 96.52)
 		)
 		(stroke
@@ -3921,16 +4295,6 @@
 			(type default)
 		)
 		(uuid "d83ff907-6dd2-4820-9030-a564ce47f058")
-	)
-	(wire
-		(pts
-			(xy 133.35 80.01) (xy 138.43 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8c2aa81-2ddf-4906-9030-f80ab9f87d33")
 	)
 	(wire
 		(pts
@@ -4061,16 +4425,6 @@
 			(justify left bottom)
 		)
 		(uuid "632098b3-ed1e-45dc-b9b9-e8a20624731d")
-	)
-	(label "OFF"
-		(at 133.35 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c247838e-be12-4a31-a479-086de27a5e46")
 	)
 	(global_label "Circuit_Output"
 		(shape input)
@@ -4640,6 +4994,213 @@
 			(project "Assignment 1"
 				(path "/3372f59d-e2fb-4a2a-b342-548a4f8e5741"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1825163-2:1825163-2")
+		(at 142.24 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f067f49-1840-4c0b-a0d8-cca652898ed1")
+		(property "Reference" "SW2"
+			(at 142.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1825163-2"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1825163-2:SW_1825163-2"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "1825163-2"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch Slide SP3T Top Slide 0.3A 125VAC PC Pins Thru-Hole Bulk"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1825163-2/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A3"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1825163-2/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1825163-2"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8125f2c6-28c0-4ceb-8c73-09069f354c46")
+		)
+		(pin "2"
+			(uuid "0810f412-12d8-4a33-bbda-5cc5756b2134")
+		)
+		(pin "6"
+			(uuid "67d0e9b0-eca0-4051-a728-c30c1cef990b")
+		)
+		(pin "3"
+			(uuid "56ad9e85-612e-4bd2-9d72-30f6aba3355c")
+		)
+		(pin "4"
+			(uuid "27d6cc11-17ca-4459-a520-978a09502da9")
+		)
+		(pin "8"
+			(uuid "a36a61dc-1d35-408e-aa56-301522935483")
+		)
+		(pin "5"
+			(uuid "83bad724-70c3-4208-892c-a7069f92852b")
+		)
+		(pin "7"
+			(uuid "e5c064ac-8ed7-4b94-adc7-2edafbe43709")
+		)
+		(instances
+			(project ""
+				(path "/3372f59d-e2fb-4a2a-b342-548a4f8e5741"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6399,80 +6960,6 @@
 			(project "Assignment 1"
 				(path "/3372f59d-e2fb-4a2a-b342-548a4f8e5741"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SP3T")
-		(at 143.51 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e81f5bcb-3e53-4b78-9a74-c7086deb8ddc")
-		(property "Reference" "SW1"
-			(at 143.51 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SP3T"
-			(at 143.51 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DP3T:SW_1825163-2"
-			(at 159.385 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
-			(at 143.51 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "74d97cb6-6795-4b79-90b5-ac0a6dc2f4b1")
-		)
-		(pin "2"
-			(uuid "de9966f8-2e15-4b81-8331-48878c2e803f")
-		)
-		(pin "4"
-			(uuid "b05d12ef-78df-4c7e-b597-597ad4966ea6")
-		)
-		(pin "1"
-			(uuid "a4fa586e-f573-4b4b-ae02-854d70756283")
-		)
-		(instances
-			(project ""
-				(path "/3372f59d-e2fb-4a2a-b342-548a4f8e5741"
-					(reference "SW1")
 					(unit 1)
 				)
 			)

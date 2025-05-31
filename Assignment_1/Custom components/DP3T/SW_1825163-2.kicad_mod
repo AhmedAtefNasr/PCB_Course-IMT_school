@@ -265,7 +265,7 @@
 		(uuid "50b74e6f-4506-4618-9875-521234ad912c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Custom components/DP3T/1825163-2.stp"
+	(model "C:/Users/pc/OneDrive/AFMT/Science/courses/In-progress/PCB_Design_Course/Documents/Quizzes_Assignment/PCB_Course-IMT_school/Assignment_1/Custom components/DP3T/1825163-2.stp"
 		(offset
 			(xyz 3.75 -1.25 5.5)
 		)

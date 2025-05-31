@@ -1,4 +1,4 @@
-24742600596072009
+24746106681073181
 AC Jack
 6ESRM-P
 <b>AC Connector</b><p>120/250 VAC<br>Source: http://catalog.tycoelectronics.com .. ENG_DS_1654001_1099_SR_0406.pdf
@@ -49195,6 +49195,13 @@ conn samtec ultra-mirco-power terminal
 0
 10
 10
+Connector_Samtec_MicroPower
+Untitled
+
+
+0
+0
+0
 Connector_Stocko
 Stocko_MKS_1651-6-0-202_1x2_P2.50mm_Vertical
 Stocko MKS 16xx series connector, (https://www.stocko-contact.com/downloads/steckverbindersystem-raster-2,5-mm.pdf#page=15), generated with kicad-footprint-generator
@@ -98755,6 +98762,13 @@ igbt diode module
 0
 25
 25
+Usb-B
+SAMTEC_USBR-B-S-S-O-TH
+
+
+0
+6
+6
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
