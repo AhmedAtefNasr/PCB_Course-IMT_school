@@ -1,4 +1,11 @@
-24737354136031393
+24742600595762842
+AC Jack
+6ESRM-P
+<b>AC Connector</b><p>120/250 VAC<br>Source: http://catalog.tycoelectronics.com .. ENG_DS_1654001_1099_SR_0406.pdf
+
+0
+3
+3
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55229,6 +55236,20 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DP3T
+SW_1825163-2
+
+
+0
+8
+8
+DPDT
+472133010111
+
+
+0
+6
+6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -65848,13 +65869,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-6ESRM-P
-<b>AC Connector</b><p>120/250 VAC<br>Source: http://catalog.tycoelectronics.com .. ENG_DS_1654001_1099_SR_0406.pdf
-
-0
-3
-3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -97908,6 +97922,13 @@ test point THT pad
 0
 1
 1
+Transformer
+XFMR_TY-311P
+
+
+0
+4
+4
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
